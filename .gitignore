@@ -1,0 +1,7 @@
+node_modules
+.idea
+downloads
+!downloads/.keep
+.vscode/
+.env
+package-lock.json

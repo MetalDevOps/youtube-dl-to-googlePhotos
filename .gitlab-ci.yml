@@ -1,0 +1,8 @@
+image: node:12.18.3
+
+stages:
+  - build
+
+build:
+  stage: build
+  script: yarn install && LC_ALL=en_US.UTF-8 node --unhandled-rejections=strict index.js
